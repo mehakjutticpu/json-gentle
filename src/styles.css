@@ -42,6 +42,10 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
@@ -144,5 +148,18 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    background-image: radial-gradient(
+        ellipse at top left,
+        oklch(0.28 0.05 255 / 0.8),
+        transparent 55%
+      ),
+      radial-gradient(ellipse at bottom right, oklch(0.28 0.06 85 / 0.25), transparent 55%);
+    background-attachment: fixed;
+  }
+
+  .num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
   }
 }
