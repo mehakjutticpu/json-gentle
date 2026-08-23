@@ -11,12 +11,18 @@ export const builtInCustomers: Customer[] = rawCustomers as Customer[];
 
 /** Pull the city / branch tag out of the trailing parentheses of a name. */
 export function parseCity(name: string): string {
-  const matches = name.match(/\(([^()]*)\)\s*$/);
-  const tag = matches?.[1]?.trim().toUpperCase();
-  if (!tag) return "OTHER";
-  if (/^\d+$/.test(tag)) return "OTHER";
-  return tag;
+  const groups = [...name.matchAll(/\(([^()]*)\)/g)].map((m) => m[1]!.trim().toUpperCase());
+  const last = groups[groups.length - 1];
+  if (last && !/^\d+$/.test(last) && last.split(/\s+/).length <= 2 && groups.length === 1) {
+    return last;
+  }
+  // Names like "BHALWAL (JABBAR BARTAN) (373)" -> city is the leading town name.
+  const lead = name.split("(")[0]!.trim().toUpperCase();
+  if (groups.length > 1 && lead) return lead;
+  if (last && !/^\d+$/.test(last)) return lead || last;
+  return lead || "OTHER";
 }
+
 
 export function cleanName(name: string): string {
   return name.replace(/\s+/g, " ").trim();
