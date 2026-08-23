@@ -13,7 +13,7 @@ export const builtInCustomers: Customer[] = rawCustomers as Customer[];
 export function parseCity(name: string): string {
   const groups = [...name.matchAll(/\(([^()]*)\)/g)].map((m) => m[1]!.trim().toUpperCase());
   const last = groups[groups.length - 1];
-  if (last && !/^\d+$/.test(last) && last.split(/\s+/).length <= 2 && groups.length === 1) {
+  if (last && !/^\d+$/.test(last) && last.split(/\s+/).length === 1 && groups.length === 1) {
     return last;
   }
   // Names like "BHALWAL (JABBAR BARTAN) (373)" -> city is the leading town name.
