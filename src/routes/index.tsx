@@ -67,8 +67,18 @@ const statusTone: Record<Status, string> = {
 };
 
 function AccountZone() {
-  const [customers, setCustomers] = useState<Customer[]>(builtInCustomers);
-  const [entries, setEntries] = useState<ManualEntries>({});
+  type Book = { id: string; name: string; customers: Customer[]; entries: ManualEntries };
+  const BOOKS_KEY = "rdx-books-v3";
+  const ACTIVE_KEY = "rdx-active-book-v3";
+  const [books, setBooks] = useState<Book[]>([
+    { id: "default", name: "Default list", customers: builtInCustomers, entries: {} },
+  ]);
+  const [activeId, setActiveId] = useState("default");
+  const active = books.find((b) => b.id === activeId) ?? books[0]!;
+  const customers = active.customers;
+  const entries = active.entries;
+  const setEntries = (fn: (prev: ManualEntries) => ManualEntries) =>
+    setBooks((bs) => bs.map((b) => (b.id === active.id ? { ...b, entries: fn(b.entries) } : b)));
   const [compareAbs, setCompareAbs] = useState(true);
   const [loaded, setLoaded] = useState(false);
 
@@ -91,13 +101,28 @@ function AccountZone() {
   // load persisted state
   useEffect(() => {
     try {
-      const c = localStorage.getItem(CUSTOMERS_KEY);
-      if (c) {
-        const parsed = normaliseCustomers(JSON.parse(c));
-        if (parsed.length) setCustomers(parsed);
+      const saved = localStorage.getItem(BOOKS_KEY);
+      if (saved) {
+        const parsed = JSON.parse(saved) as Book[];
+        if (Array.isArray(parsed) && parsed.length) {
+          setBooks(parsed);
+          const a = localStorage.getItem(ACTIVE_KEY);
+          setActiveId(a && parsed.some((b) => b.id === a) ? a : parsed[0]!.id);
+        }
+      } else {
+        // migrate old single-list data
+        const c = localStorage.getItem(CUSTOMERS_KEY);
+        const e = localStorage.getItem(ENTRIES_KEY);
+        const list = c ? normaliseCustomers(JSON.parse(c)) : [];
+        setBooks([
+          {
+            id: "default",
+            name: "Default list",
+            customers: list.length ? list : builtInCustomers,
+            entries: e ? (JSON.parse(e) as ManualEntries) : {},
+          },
+        ]);
       }
-      const e = localStorage.getItem(ENTRIES_KEY);
-      if (e) setEntries(JSON.parse(e) as ManualEntries);
       const a = localStorage.getItem(ABS_KEY);
       if (a) setCompareAbs(a === "1");
     } catch {
@@ -107,15 +132,48 @@ function AccountZone() {
   }, []);
 
   useEffect(() => {
-    if (loaded) localStorage.setItem(ENTRIES_KEY, JSON.stringify(entries));
-  }, [entries, loaded]);
+    if (!loaded) return;
+    localStorage.setItem(BOOKS_KEY, JSON.stringify(books));
+    localStorage.setItem(ACTIVE_KEY, activeId);
+  }, [books, activeId, loaded]);
   useEffect(() => {
     if (loaded) localStorage.setItem(ABS_KEY, compareAbs ? "1" : "0");
   }, [compareAbs, loaded]);
 
-  function applyCustomers(list: Customer[]) {
-    setCustomers(list);
-    localStorage.setItem(CUSTOMERS_KEY, JSON.stringify(list));
+  function resetForm() {
+    setNameInput("");
+    setAmountInput("");
+    setEditingKey(null);
+    setCity("ALL");
+  }
+
+  function applyCustomers(list: Customer[], name = "New list") {
+    const id = `b${Date.now()}`;
+    setBooks((bs) => [...bs, { id, name, customers: list, entries: {} }]);
+    setActiveId(id);
+    resetForm();
+  }
+
+  function selectBook(id: string) {
+    setActiveId(id);
+    resetForm();
+  }
+
+  function deleteBook(id: string) {
+    const b = books.find((x) => x.id === id);
+    if (!b || !confirm(`"${b.name}" list aur us ki entries delete karein?`)) return;
+    const rest = books.filter((x) => x.id !== id);
+    const next = rest.length
+      ? rest
+      : [{ id: "default", name: "Default list", customers: builtInCustomers, entries: {} }];
+    setBooks(next);
+    if (id === activeId) selectBook(next[0]!.id);
+  }
+
+  function renameBook(id: string) {
+    const b = books.find((x) => x.id === id);
+    const n = b && prompt("List ka naya naam", b.name);
+    if (n && n.trim()) setBooks((bs) => bs.map((x) => (x.id === id ? { ...x, name: n.trim() } : x)));
   }
 
   const report = useMemo(
