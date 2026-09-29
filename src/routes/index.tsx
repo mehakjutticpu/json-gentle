@@ -624,7 +624,7 @@ function AccountZone() {
           </label>
           <button
             onClick={() => {
-              if (confirm("Sari manual entries delete karein?")) setEntries({});
+              if (confirm("Sari manual entries delete karein?")) setEntries(() => ({}));
             }}
             className="inline-flex items-center gap-2 rounded-lg border border-destructive/40 px-3 py-2.5 text-sm text-destructive"
           >
