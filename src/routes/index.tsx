@@ -73,6 +73,7 @@ function AccountZone() {
 
   const [nameInput, setNameInput] = useState("");
   const [amountInput, setAmountInput] = useState("");
+  const [editingKey, setEditingKey] = useState<string | null>(null);
   const [highlight, setHighlight] = useState(0);
   const [showSuggest, setShowSuggest] = useState(false);
   const [flash, setFlash] = useState<string | null>(null);
@@ -193,10 +194,31 @@ function AccountZone() {
     }
     const value = toNumber(amountInput);
     setEntries((prev) => ({ ...prev, [keyOf(match.name)]: value }));
-    setFlash(`Saved: ${match.name} = ${fmt(value)}`);
+    setFlash(
+      editingKey ? `Updated: ${match.name} = ${fmt(value)}` : `Saved: ${match.name} = ${fmt(value)}`,
+    );
     setNameInput("");
     setAmountInput("");
+    setEditingKey(null);
     setShowSuggest(false);
+    nameRef.current?.focus();
+  }
+
+  function editEntry(name: string) {
+    const k = keyOf(name);
+    if (entries[k] === undefined) return;
+    setEditingKey(k);
+    setNameInput(name);
+    setAmountInput(String(entries[k]));
+    setShowSuggest(false);
+    setTimeout(() => amountRef.current?.focus(), 0);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function cancelEdit() {
+    setEditingKey(null);
+    setNameInput("");
+    setAmountInput("");
     nameRef.current?.focus();
   }
 
