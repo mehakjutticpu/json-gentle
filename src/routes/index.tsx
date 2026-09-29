@@ -8,6 +8,7 @@ import {
   FileSpreadsheet,
   FileText,
   Github,
+  Pencil,
   RotateCcw,
   Save,
   Search,
@@ -433,14 +434,69 @@ function AccountZone() {
               placeholder="Manual amount"
               className="num w-full rounded-lg border border-input bg-background/50 px-4 py-3 text-sm outline-none focus:border-primary"
             />
-            <button
-              onClick={saveEntry}
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground hover:opacity-90"
-            >
-              <Save className="size-4" /> Save
-            </button>
+            <div className="flex gap-2">
+              <button
+                onClick={saveEntry}
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground hover:opacity-90"
+              >
+                <Save className="size-4" /> {editingKey ? "Update" : "Save"}
+              </button>
+              {editingKey && (
+                <button
+                  onClick={cancelEdit}
+                  className="inline-flex items-center justify-center gap-2 rounded-lg border border-border px-4 py-3 text-sm text-muted-foreground hover:text-foreground"
+                >
+                  Cancel
+                </button>
+              )}
+            </div>
           </div>
+          {editingKey && (
+            <p className="mt-3 text-xs text-warning">
+              Edit mode: entry update ho rahi hai — Enter dabayen ya Update click karein
+            </p>
+          )}
           {flash && <p className="mt-3 text-xs text-accent">{flash}</p>}
+
+          {/* Saved entries list */}
+          {entryCount > 0 && (
+            <div className="mt-5 border-t border-border/60 pt-4">
+              <h3 className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground">
+                AAPKI ENTRIES ({entryCount})
+              </h3>
+              <ul className="grid max-h-56 gap-1 overflow-auto sm:grid-cols-2 lg:grid-cols-3">
+                {Object.entries(entries)
+                  .sort(([a], [b]) => a.localeCompare(b))
+                  .map(([k, v]) => (
+                    <li
+                      key={k}
+                      className="flex items-center justify-between gap-2 rounded-md bg-background/50 px-3 py-1.5 text-xs"
+                    >
+                      <span className="truncate" title={k}>
+                        {k}
+                      </span>
+                      <span className="flex shrink-0 items-center gap-2">
+                        <span className="num font-medium text-foreground">{fmt(v)}</span>
+                        <button
+                          onClick={() => editEntry(k)}
+                          title="Edit entry"
+                          className="text-muted-foreground hover:text-primary"
+                        >
+                          <Pencil className="size-3.5" />
+                        </button>
+                        <button
+                          onClick={() => removeEntry(k)}
+                          title="Delete entry"
+                          className="text-muted-foreground hover:text-destructive"
+                        >
+                          <Trash2 className="size-3.5" />
+                        </button>
+                      </span>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          )}
         </section>
 
         {/* Summary */}
