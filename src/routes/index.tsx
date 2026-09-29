@@ -608,7 +608,12 @@ function AccountZone() {
               </thead>
               <tbody>
                 {filtered.map((r) => (
-                  <Row key={r.name} row={r} onRemove={() => removeEntry(r.name)} />
+                  <Row
+                    key={r.name}
+                    row={r}
+                    onEdit={() => editEntry(r.name)}
+                    onRemove={() => removeEntry(r.name)}
+                  />
                 ))}
                 {filtered.length === 0 && (
                   <tr>
@@ -640,7 +645,15 @@ function Stat({ label, value, tone }: { label: string; value: string; tone: stri
   );
 }
 
-function Row({ row, onRemove }: { row: ReportRow; onRemove: () => void }) {
+function Row({
+  row,
+  onEdit,
+  onRemove,
+}: {
+  row: ReportRow;
+  onEdit: () => void;
+  onRemove: () => void;
+}) {
   return (
     <tr className="border-b border-border/60 last:border-0 hover:bg-secondary/30">
       <td className="max-w-[26rem] truncate px-4 py-2.5">{row.name}</td>
@@ -663,13 +676,22 @@ function Row({ row, onRemove }: { row: ReportRow; onRemove: () => void }) {
       </td>
       <td className="px-2 py-2.5 text-right">
         {row.manual !== null && (
-          <button
-            onClick={onRemove}
-            title="Entry delete"
-            className="text-muted-foreground hover:text-destructive"
-          >
-            <Trash2 className="size-4" />
-          </button>
+          <span className="inline-flex items-center gap-2">
+            <button
+              onClick={onEdit}
+              title="Entry edit"
+              className="text-muted-foreground hover:text-primary"
+            >
+              <Pencil className="size-4" />
+            </button>
+            <button
+              onClick={onRemove}
+              title="Entry delete"
+              className="text-muted-foreground hover:text-destructive"
+            >
+              <Trash2 className="size-4" />
+            </button>
+          </span>
         )}
       </td>
     </tr>
