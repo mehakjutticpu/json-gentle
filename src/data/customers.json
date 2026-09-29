@@ -1,315 +1,11 @@
 [
  {
-  "name": "AL MADINA CHANANA (GRW)",
-  "amount": -57604.0
- },
- {
-  "name": "PAK SHEHEEN (GRW)",
-  "amount": -100997.49
- },
- {
-  "name": "AR COOKER IRFAN SB (GRW)",
-  "amount": -505985.0
- },
- {
-  "name": "AR CUTLERY (GRW)",
-  "amount": -12560.0
- },
- {
-  "name": "NOMI SB TRY (GRW)",
-  "amount": -1390.0
- },
- {
-  "name": "MUDASAR SB KADOKASH (GRW)",
-  "amount": -56320.0
- },
- {
-  "name": "SH ANAS SB TAWA NS (GRW)",
-  "amount": -65230.0
- },
- {
-  "name": "ASIM STEEL (GRW)",
-  "amount": -11715.0
- },
- {
-  "name": "USAMA  PONI TOKRI (GRW)",
-  "amount": -176190.0
- },
- {
-  "name": "KH NAVEED SB ROYAL (GRW)",
-  "amount": -592470.0
- },
- {
-  "name": "WHITE STONE DINNER (GRW)",
+  "name": "ALI PUR CHATHA (ASHRAF BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "NICE STEEL (GRW)",
-  "amount": -20160.0
- },
- {
-  "name": "UMER SB TRY (GRW)",
-  "amount": -10199.0
- },
- {
-  "name": "CHAUDHARY STEEL (GRW)",
-  "amount": -1083.0
- },
- {
-  "name": "CLASSIC MUG (GRW)",
-  "amount": -138990.0
- },
- {
-  "name": "MAJESTIC COOKER SHEIKH SHOKIT SB  (GRW)",
-  "amount": -212043.0
- },
- {
-  "name": "DIAMOND DRUMEY SHAN SB (GRW)",
-  "amount": -252960.0
- },
- {
-  "name": "DIAMOND STEEL NOMAN SB (GRW)",
-  "amount": -80500.0
- },
- {
-  "name": "MEHAR YOUNIS (GRW)",
-  "amount": -353645.0
- },
- {
-  "name": "DISCOVER NAMAKDANI (KRACHI)",
-  "amount": -3957.0
- },
- {
-  "name": "SAWAN MATEL FINE NS (GRW)",
-  "amount": -730277.0
- },
- {
-  "name": "GAFOOR SB WATER SET (GRW)",
-  "amount": -5890.0
- },
- {
-  "name": "GHAZANFAR STEEL (GRW)",
-  "amount": -13800.08
- },
- {
-  "name": "KH SALHAH (GRW)",
-  "amount": -7770.0
- },
- {
-  "name": "GOGI COOLER (GRW)",
-  "amount": 16086.0
- },
- {
-  "name": "GRACE WARE (RWP)",
-  "amount": -3875106.3
- },
- {
-  "name": "HAANI METAL (GRW)",
-  "amount": -1092811.5
- },
- {
-  "name": "HAJI SHEHBAZ SB (GRW)",
-  "amount": -7000.0
- },
- {
-  "name": "HAMAYUN SB JAR (GRW)",
-  "amount": -6800.0
- },
- {
-  "name": "IRFAN MUGHI (GRW)",
-  "amount": -24400.0
- },
- {
-  "name": "IRFAN SB THARMAS (KRACHO)",
-  "amount": -3600.0
- },
- {
-  "name": "ISHFAQ SB WATER SET (GRW)",
-  "amount": -322110.0
- },
- {
-  "name": "JUDGE STEEL (GRW)",
-  "amount": 0.0
- },
- {
-  "name": "KAAM STEEL (GRW)",
-  "amount": -349057.1
- },
- {
-  "name": "USAMA PLASTIC (GRW)",
-  "amount": -76160.0
- },
- {
-  "name": "KHURAM SB TRAY (GRW)",
-  "amount": -11810.0
- },
- {
-  "name": "KK KADDOKASH (GRW)",
-  "amount": 179680.0
- },
- {
-  "name": "LG MALLAMINE (GRW)",
-  "amount": -38275.0
- },
- {
-  "name": "LIVON PLASTIC (GRW)",
-  "amount": -551591.0
- },
- {
-  "name": "MAJESTIC COOLER (KRI)",
-  "amount": -1562981.21
- },
- {
-  "name": "MALIK SHAKEEL SB NAMAK DANI (GRW)",
-  "amount": -162386.6
- },
- {
-  "name": "MALIK SHAHZAB SB CUTLERY (WAZIRABAD)",
-  "amount": -115184.2
- },
- {
-  "name": "MASTER KETLI (GRW)",
-  "amount": -7065.0
- },
- {
-  "name": "MEDORA DINNER (GRW)",
-  "amount": -2529410.0
- },
- {
-  "name": "IJAZ SB COOLER (GRW)",
-  "amount": -28390.0
- },
- {
-  "name": "MEHRAN STEEL (GRW)",
-  "amount": -214953.0
- },
- {
-  "name": "MILTON DINNER (KRACHI)",
-  "amount": -132166.0
- },
- {
-  "name": "MUDASSAR SB MALAMINE (GRW)",
-  "amount": -11216.0
- },
- {
-  "name": "NADEEM SB GOGI DRUMMY (GRW)",
-  "amount": -533152.0
- },
- {
-  "name": "NADEEM TIFFAN (GRW)",
-  "amount": -6097.0
- },
- {
-  "name": "NG SIPRI (GRW)",
-  "amount": 4.0
- },
- {
-  "name": "PAARIS MELAMINE (WAZIRABAD)",
-  "amount": 0.0
- },
- {
-  "name": "RAVI STEEL & KETLI (GRW)",
-  "amount": -6480.0
- },
- {
-  "name": "RAVI MATEL SADEEQ SB (GRW)",
-  "amount": -796.0
- },
- {
-  "name": "BRIDEL DINNER SAEED SB (GRW)",
-  "amount": -834089.9
- },
- {
-  "name": "NTN HEATER (LAHORE)",
-  "amount": 3000.0
- },
- {
-  "name": "SABIR SB GADVI (GRW)",
-  "amount": -63800.0
- },
- {
-  "name": "SAJID STEEL (GRW)",
-  "amount": -56600.4
- },
- {
-  "name": "SAMSUNG MATEL (GRW)",
-  "amount": -1270957.8
- },
- {
-  "name": "SH SARFRAZ SB (GRW)",
-  "amount": -3400.0
- },
- {
-  "name": "BMW SHAFQAT SB (RWP)",
-  "amount": -693910.0
- },
- {
-  "name": "SHAH JEE MELAMINE (RWP)",
-  "amount": -16627.4
- },
- {
-  "name": "SHAKIR SB TRY (GRW)",
-  "amount": 0.0
- },
- {
-  "name": "SHEHZAD SB DRUMMY (GRW)",
-  "amount": 0.0
- },
- {
-  "name": "SHERAZ STEEL (GRW)",
-  "amount": -581519.0
- },
- {
-  "name": "SK MATEL (GRW)",
-  "amount": -68782.25
- },
- {
-  "name": "IRON (LAHORE)",
-  "amount": -14450.0
- },
- {
-  "name": "SONEX CUTLARY (WAZIRABAD)",
-  "amount": -83945.0
- },
- {
-  "name": "SONEX KETLI (GRW)",
-  "amount": 0.0
- },
- {
-  "name": "SUPER GOLD STEEL (GRW)",
-  "amount": -18210.0
- },
- {
-  "name": "SUPERWAVE DINNER (GRW)",
-  "amount": -83056.0
- },
- {
-  "name": "TAAJ STEEL (GRW)",
-  "amount": -340274.0
- },
- {
-  "name": "TARIQ SB GOGI STEEL (GRW)",
-  "amount": -635384.6
- },
- {
-  "name": "ALI BHAI (KRACHI)",
-  "amount": -124680.0
- },
- {
-  "name": "WEST POINT (KARACHI)",
-  "amount": -27900593.2
- },
- {
-  "name": "WEST POINT SILVER (KARACHI)",
-  "amount": -2726860.0
- },
- {
-  "name": "ZEENAT STEEL (GRW)",
-  "amount": -101520.0
- },
- {
-  "name": "Freight Accrual",
-  "amount": -89160.0
+  "name": "BAJWALA (JANJUA BARTAN) (453)",
+  "amount": 3100.0
  },
  {
   "name": "BHABHRA (IMRAN BARTAN)",
@@ -317,51 +13,43 @@
  },
  {
   "name": "BHABHRA (ISHFAQ BARTAN) (197)",
-  "amount": 925997.5
- },
- {
-  "name": "BHABHRA (MASTER BARTAN) (215)",
-  "amount": 485984.2
- },
- {
-  "name": "BHABHRA (MIAN BARTAN) (207)",
-  "amount": 276745.2
- },
- {
-  "name": "BHABHRA (NADEEM GUJJAR) (203)",
-  "amount": 102295.75
- },
- {
-  "name": "BHABHRA (NASRULLAH BARTAN) (221)",
-  "amount": 129300.1
+  "amount": 891565.0
  },
  {
   "name": "BHABHRA (KH SAIFULLAH BARTAN) (211)",
-  "amount": 154228.6
+  "amount": 97559.0
+ },
+ {
+  "name": "BHABHRA (MASTER BARTAN) (215)",
+  "amount": 462732.0
+ },
+ {
+  "name": "BHABHRA (MIAN BARTAN) (207)",
+  "amount": 703820.0
+ },
+ {
+  "name": "BHABHRA (NADEEM GUJJAR) (203)",
+  "amount": 72296.0
+ },
+ {
+  "name": "BHABHRA (NASRULLAH BARTAN) (221)",
+  "amount": 73660.0
  },
  {
   "name": "BHALWAL (AL JALAL ELECTRONIC) (349)",
-  "amount": 298725.0
+  "amount": 268725.0
  },
  {
   "name": "BHALWAL (ALI ELECTRONICS) (395)",
-  "amount": 79921.0
+  "amount": 189921.0
  },
  {
   "name": "BHALWAL (ASIA ELECTRONICS) (391)",
   "amount": 19833.0
  },
  {
-  "name": "BHALWAL (B.M CROCKERY)",
-  "amount": 0.0
- },
- {
   "name": "BHALWAL (BHALWAL BARTAN) (353)",
-  "amount": 507819.7
- },
- {
-  "name": "PHULARWAN (KASHMIR BARTAN)",
-  "amount": 0.0
+  "amount": 477773.0
  },
  {
   "name": "BHALWAL (ITTFAQ BARTAN) (367)",
@@ -369,7 +57,7 @@
  },
  {
   "name": "BHALWAL (JABBAR BARTAN) (373)",
-  "amount": 812563.2
+  "amount": 826243.0
  },
  {
   "name": "BHALWAL (KH NASEEM BARTAN) (359)",
@@ -380,36 +68,20 @@
   "amount": 143659.0
  },
  {
-  "name": "BHALWAL (MALL OF BHALWAAL)",
-  "amount": 0.0
- },
- {
   "name": "BHALWAL (MASHALLAH CROCKRY) (371)",
-  "amount": 158631.8
+  "amount": 156632.0
  },
  {
   "name": "BHALWAL (MEHAR IRSHAD BARTAN) (383)",
-  "amount": 136966.0
+  "amount": 126966.0
  },
  {
-  "name": "BHALWAL (MODREN  PLASTIC)",
-  "amount": 0.0
- },
- {
-  "name": "BHALWAL (NAGINA BARTAN)",
-  "amount": 0.0
- },
- {
-  "name": "SARAIALAMGIR (DATA CROCKRY) (411)",
-  "amount": 446466.2
+  "name": "BHALWAL (NEW ZIA BHAI BARTAN) (379)",
+  "amount": 246790.0
  },
  {
   "name": "BHALWAL (PENORAMA BARTAN) (387)",
   "amount": 6200.0
- },
- {
-  "name": "BHALWAL (ROYAL BARTAN)",
-  "amount": 0.0
  },
  {
   "name": "BHALWAL (SAUDIA ELECTRONICS) (375)",
@@ -421,19 +93,15 @@
  },
  {
   "name": "BHALWAL (UMER BHAI BARTAN) (361)",
-  "amount": 3672723.95
+  "amount": 4559190.0
  },
  {
   "name": "BHALWAL (ZIA BAHI BARTAN) (357)",
-  "amount": 279416.0
- },
- {
-  "name": "BHEKE (MASTER ANWAR SAAB)",
-  "amount": 0.0
+  "amount": 332986.0
  },
  {
   "name": "BHEKE (MUNEER BARTAN) (1)",
-  "amount": 21945.8
+  "amount": 21946.0
  },
  {
   "name": "BHEKE (SAQI BARTAN)",
@@ -452,28 +120,24 @@
   "amount": 0.0
  },
  {
-  "name": "BHERA (BHERA CASH AND CARRY)",
-  "amount": 0.0
- },
- {
   "name": "BHERA (BILAL BARTAN) (113)",
-  "amount": 304800.0
+  "amount": 297200.0
  },
  {
   "name": "BHERA (FOJI BARTAN) (137)",
-  "amount": 197401.8
+  "amount": 212382.0
  },
  {
   "name": "BHERA (HAJI KREEM UD DIN BARTAN) (129)",
-  "amount": 349421.4
+  "amount": 277561.0
  },
  {
   "name": "BHERA (HAJI RAMZAN BARTAN) (133)",
-  "amount": 161974.0
+  "amount": 113574.0
  },
  {
   "name": "BHERA (HAJI YOUNIS BARTAN) (125)",
-  "amount": 33099.0
+  "amount": 111887.0
  },
  {
   "name": "BHERA (KH UMER BARTAN)",
@@ -481,47 +145,23 @@
  },
  {
   "name": "BHERA (MALIK ABDULLAH FOAM) (121)",
-  "amount": 51842.0
- },
- {
-  "name": "BHERA (MAQBOOL BARTAN)",
-  "amount": 0.0
+  "amount": 116683.0
  },
  {
   "name": "BHERA (MIRZA BARTAN) (117)",
-  "amount": 459380.2
- },
- {
-  "name": "BHERA (MIRZA KHURAM)",
-  "amount": 0.0
- },
- {
-  "name": "BHERA (NEW UMAR BARTAN)",
-  "amount": 0.0
+  "amount": 319845.0
  },
  {
   "name": "BHERA (SULTAN & SONS)",
   "amount": 9714.0
  },
  {
-  "name": "BHERA (WAQAR AKBAR BARTAN)",
-  "amount": 0.0
- },
- {
-  "name": "BHOA HASSAN  (WARRIACH BARTAN) (73)",
-  "amount": 0.0
- },
- {
   "name": "BHOA HASSAN (IRFAN BARTAN) (51)",
-  "amount": 166457.78
- },
- {
-  "name": "BHOA HASSAN (SADDIQUI BARTAN)",
-  "amount": 0.0
+  "amount": 210946.0
  },
  {
   "name": "BHOA HASSAN (SH ZAHOOR SB) (47)",
-  "amount": 628757.2
+  "amount": 604017.0
  },
  {
   "name": "BIDAR (786 GENERAL STORE)",
@@ -533,19 +173,15 @@
  },
  {
   "name": "BOSAL (ARIF NAYAZ BARTAN) (183)",
-  "amount": 444642.7
+  "amount": 417333.0
  },
  {
   "name": "BOSAL (ASHFAQ BARTAN) (179)",
-  "amount": 279778.9
+  "amount": 219779.0
  },
  {
   "name": "BOSAL (IRSHAD BARTAN) (175)",
-  "amount": 25072.0
- },
- {
-  "name": "BOSAL (MALIK BARTN)",
-  "amount": 0.0
+  "amount": 21072.0
  },
  {
   "name": "BOSAL (MEHRIYA BARTAN)",
@@ -553,18 +189,14 @@
  },
  {
   "name": "BOSAL (RIAZ BARTAN) (187)",
-  "amount": 108981.0
+  "amount": 88981.0
  },
  {
   "name": "BOSAL (SADAAT BARTAN) (191)",
-  "amount": 28613.2
+  "amount": 18613.0
  },
  {
-  "name": "CANADA (ASIM SB C/O MATEEN SB)",
-  "amount": 0.0
- },
- {
-  "name": "CASH SALES",
+  "name": "CASH SALE",
   "amount": 0.0
  },
  {
@@ -573,7 +205,7 @@
  },
  {
   "name": "CHAILIANWALA (PEER SHAH GAZI) (243)",
-  "amount": 68799.15
+  "amount": 68899.0
  },
  {
   "name": "CHAILIANWALA (TARIQ FAZAL KAREEM) (371)",
@@ -581,26 +213,22 @@
  },
  {
   "name": "CHAKRI (RAFEEQ BARTAN) (153)",
-  "amount": 107490.0
+  "amount": 129944.0
  },
  {
-  "name": "ALI PUR CHATHA (ASHRAF BARTAN)",
+  "name": "CHAKWAL (WAQAS BARTAN)",
   "amount": 0.0
  },
  {
   "name": "DALWAL (KH SAAB)",
-  "amount": -0.15
- },
- {
-  "name": "DHARYALAJALAP (ABDUL LATEEF BARTAN) (197)",
-  "amount": 916426.0
- },
- {
-  "name": "DHARYALAJALAP (ABDULROUF BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "DHARYALAJALAP (AL MAKKAH TRADERS)",
+  "name": "DHARYALAJALAP (ABDUL LATEEF BARTAN) (197)",
+  "amount": 838454.0
+ },
+ {
+  "name": "DHARYALAJALAP (ABDULROUF BARTAN)",
   "amount": 0.0
  },
  {
@@ -613,27 +241,31 @@
  },
  {
   "name": "DHARYALAJALAP (FOJI BASHIR BARTAN) (193)",
-  "amount": 82595.0
+  "amount": 79705.0
  },
  {
   "name": "DHARYALAJALAP (HAJI QAYOUM BARTAN) (181)",
-  "amount": 545837.1
+  "amount": 592444.0
  },
  {
   "name": "DHARYALAJALAP (HAJI ZAFER BARTAN) (187)",
-  "amount": 489889.0
+  "amount": 448649.0
  },
  {
   "name": "DHARYALAJALAP (HASHMI BARTAN) (203)",
-  "amount": 445098.3
+  "amount": 408254.0
  },
  {
   "name": "DHARYALAJALAP (MUKHTAR BARTAN) (175)",
-  "amount": 191571.1
+  "amount": 180598.0
  },
  {
-  "name": "DHARYALAJALAP(WAQAR SAB)",
-  "amount": 0.0
+  "name": "DINA (ALI ELECTRONICS) (433)",
+  "amount": 510575.0
+ },
+ {
+  "name": "DINA (SHAHBAZ SAB ALI ELECTRONICS) (442)",
+  "amount": 384195.0
  },
  {
   "name": "DINGA (AFZAL ANARKLI BARTAN)",
@@ -641,107 +273,115 @@
  },
  {
   "name": "DINGA (ALI CROCKERY) (253)",
-  "amount": 241125.0
+  "amount": 255705.0
  },
  {
   "name": "DINGA (ANWAR BARTAN) (269)",
-  "amount": 61670.0
+  "amount": 61210.0
  },
  {
   "name": "DINGA (AWAIS BARTAN) (277)",
-  "amount": 79572.9
+  "amount": 63223.0
  },
  {
-  "name": "DINGA (CHINA CROCKERY) (233)",
-  "amount": 0.0
+  "name": "DINGA (AWAIS YOUNIS BARTAN) (271)",
+  "amount": 55354.0
  },
  {
   "name": "DINGA (CITY ELECTRONICS) (249)",
-  "amount": 25269.0
- },
- {
-  "name": "DINGA (FINE BARTAN) (273)",
-  "amount": 333461.1
- },
- {
-  "name": "DINGA (IMTIYAZ BARTAN) (289)",
-  "amount": 273567.7
- },
- {
-  "name": "DINGA (MADINA BARTAN HABIB ULLAH) (247)",
-  "amount": 64282.0
- },
- {
-  "name": "DINGA (MALIK STEEL) (281)",
-  "amount": 139644.0
- },
- {
-  "name": "DINGA (MEHAR BASHIR BARTAN) (257)",
-  "amount": 46540.1
- },
- {
-  "name": "DINGA (MEHRIYA ELECTRONICS) (259)",
   "amount": 0.0
  },
  {
+  "name": "DINGA (DINGA CASH & CARRY)",
+  "amount": -1.0
+ },
+ {
+  "name": "DINGA (FINE BARTAN) (273)",
+  "amount": 407091.0
+ },
+ {
+  "name": "DINGA (IMTIYAZ BARTAN) (289)",
+  "amount": 271109.0
+ },
+ {
+  "name": "DINGA (MADINA BARTAN HABIB ULLAH) (247)",
+  "amount": 101712.0
+ },
+ {
+  "name": "DINGA (MALIK STEEL) (281)",
+  "amount": 99644.0
+ },
+ {
+  "name": "DINGA (MEHAR BASHIR BARTAN) (257)",
+  "amount": 20700.0
+ },
+ {
   "name": "DINGA (PAKISTAN CROCKERY) (285)",
-  "amount": 356266.72
+  "amount": 419170.0
  },
  {
   "name": "DINGA (QURESHI BARTAN) (261)",
-  "amount": 274348.3
+  "amount": 204958.0
  },
  {
   "name": "DINGA (RIAZ BARTAN) (265)",
-  "amount": 431927.15
+  "amount": 598367.0
  },
  {
   "name": "DINGA (SADIQ BARTAN)",
   "amount": 9588.0
  },
  {
-  "name": "DINGA(YOUSAF TRUNK MAKER)",
-  "amount": 0.0
- },
- {
-  "name": "GOJRA (BHATTI BARTAN STORE)",
+  "name": "END OF THE MONTH (M.B.DIN)",
   "amount": 0.0
  },
  {
   "name": "GOJRA (BILAL BARTAN) (169)",
-  "amount": 8450.0
+  "amount": 10.0
  },
  {
   "name": "GOJRA (HAMZA BARTAN) (171)",
-  "amount": 255790.5
+  "amount": 257121.0
  },
  {
   "name": "GOJRA (HUSAIN GIFT CENTR) (165)",
-  "amount": 27.0
+  "amount": 0.0
  },
  {
   "name": "GOJRA (KH MUSHTAQ BARTAN) (147)",
-  "amount": 393260.6
+  "amount": 363261.0
+ },
+ {
+  "name": "GOJRA (KH RASHID BARTAN)",
+  "amount": 0.0
  },
  {
   "name": "GOJRA (NAVEED BARTAN) (157)",
-  "amount": 773113.2
+  "amount": 727603.0
  },
  {
   "name": "GOJRA (NAYAZ BARTAN) (161)",
-  "amount": 754412.9
+  "amount": 619021.0
  },
  {
   "name": "GOJRA (WAQAS BARTAN) (151)",
-  "amount": 572975.8
+  "amount": 514730.0
  },
  {
   "name": "GUJRANWALA (SUPER STAR BARTAN) (471)",
-  "amount": 374225.0
+  "amount": 335035.0
+ },
+ {
+  "name": "GULIYANA (MALIK BROTHERS HAMZA SAB)(357)",
+  "amount": 429245.0
+ },
+ {
+  "name": "GULIYANA (SAMI NETWORK YASIR SAB)",
+  "amount": 0.0
  },
  {
   "name": "HARIA (ATEEQ BARTAN) (1)",
-  "amount": 75380.6
+  "amount": 56982.0
  },
  {
   "name": "HARIA (GULZAR BARTAN) (5)",
@@ -749,7 +389,7 @@
  },
  {
   "name": "HAZOOR PUR (NASEER BARTAN) (109)",
-  "amount": 38111.4
+  "amount": 33616.0
  },
  {
   "name": "HEAD FAQIRIYAN (KHALID BARTAN)",
@@ -761,79 +401,119 @@
  },
  {
   "name": "HELAN (SALEEM SB) (459)",
-  "amount": 130067.2
- },
- {
-  "name": "JALAL PURSHAREEF (HADRI BARTAN)",
-  "amount": 0.0
+  "amount": 115044.0
  },
  {
   "name": "JALALPUR SHAREEF (AL HAMAD GIFT) (149)",
-  "amount": 2262.6
+  "amount": 2263.0
  },
  {
   "name": "JALALPUR SHAREEF (MANSHA BARTAN) (143)",
-  "amount": 298130.75
+  "amount": 324022.0
  },
  {
   "name": "JALALPUR SHAREEF (NAZIR BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "JALALPURSHAREEF (KHIZER HAYAT BARTAN)",
+  "name": "JEHLUM (AFZAL PLASTIC STORE) (419)",
+  "amount": 159348.0
+ },
+ {
+  "name": "JEHLUM (AL-SYED ELECTRONICS) (414)",
+  "amount": 353527.0
+ },
+ {
+  "name": "JEHLUM (CITY ELECTRONICS) (423)",
+  "amount": 800576.0
+ },
+ {
+  "name": "JEHLUM (DH ELECTRONICS)",
   "amount": 0.0
  },
  {
-  "name": "JEHLUM (D.C CASH AND CARRY)",
+  "name": "JEHLUM (IQBAL ELECTRONICS)",
   "amount": 0.0
  },
  {
-  "name": "KAMALIA (GHOSIA BARTAN)",
+  "name": "JEHLUM (POWER CITY ELECTRONICS) (429)",
+  "amount": 1956171.0
+ },
+ {
+  "name": "JEHLUM (SHEIKH ELECTRONICS) (418)",
+  "amount": 165075.0
+ },
+ {
+  "name": "KHARAIN (AL JANNAT BARTAN) (375)",
+  "amount": 141330.0
+ },
+ {
+  "name": "KHARAIN (MALIK BROTHERS ELECTRONICS)(361)",
+  "amount": 1310355.0
+ },
+ {
+  "name": "KHARIAN (AL KARAM BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "KHARIYAN (TALLT SAHIB)",
-  "amount": 0.0
+  "name": "KHARIAN (AL-FAZAL BARTAN) (379)",
+  "amount": 244025.0
  },
  {
-  "name": "KHEWRA (MALIK FAZAL BARTAN)",
-  "amount": 0.0
+  "name": "KHARIAN (ASAD KHAN BARTAN) (371)",
+  "amount": 22906.0
+ },
+ {
+  "name": "KHARIAN (ASCON ELECTRONICS) (359)",
+  "amount": 234162.0
+ },
+ {
+  "name": "KHARIAN (CH AHMED BARTAN) (385)",
+  "amount": 93671.0
+ },
+ {
+  "name": "KHARIAN (CITY ELECTRONICS) (363)",
+  "amount": -10.0
+ },
+ {
+  "name": "KHARIAN (JENERAL ELECTRONIC) (367)",
+  "amount": 725196.0
+ },
+ {
+  "name": "KHARIAN (WALEED BARTAN) (383)",
+  "amount": 87585.0
  },
  {
   "name": "KOHAR (ZIA BARTAN) (435)",
-  "amount": 1083248.6
+  "amount": 1290341.0
  },
  {
   "name": "KOT MOMIN (ANSARI BARTAN) (227)",
-  "amount": 526352.6
+  "amount": 485603.0
+ },
+ {
+  "name": "KOT MOMIN (ASIF PARACHA BARTAN) (249)",
+  "amount": 405810.0
  },
  {
   "name": "KOT MOMIN (ATIF NASEER BARTAN) (245)",
-  "amount": 410255.0
+  "amount": 441725.0
  },
  {
   "name": "KOT MOMIN (BILAL PARACHA BARTAN) (253)",
   "amount": 174815.0
  },
  {
-  "name": "KOT MOMIN (CLASSIC BARTAN)",
-  "amount": 95.0
- },
- {
   "name": "KOT MOMIN (KH ZULFIQAR SAB) (231)",
-  "amount": 410668.0
+  "amount": 367928.0
  },
  {
   "name": "KOT MOMIN (NASEER BARTAN) (241)",
-  "amount": 287637.3
+  "amount": 270257.0
  },
  {
   "name": "KOT MOMIN (PARACHA BARTAN) (237)",
-  "amount": 1082656.5
- },
- {
-  "name": "PHALIA (ABDUR REHMAN BARTAN)",
-  "amount": 0.0
+  "amount": 1116496.0
  },
  {
   "name": "KPK ( AFTAAB SHAH)",
@@ -844,27 +524,7 @@
   "amount": 0.0
  },
  {
-  "name": "M.B.DIN (KHAN TRADERS NAGINA CINEMA)",
-  "amount": 0.0
- },
- {
-  "name": "BHALWAL (NEW ZIA BHAI BARTAN) (379)",
-  "amount": 186430.0
- },
- {
-  "name": "MALIKWAL (KHAYAL DIN QUEATA SADDAT) (181)",
-  "amount": 0.0
- },
- {
   "name": "KPK (ANJUM SHAH)",
-  "amount": 0.0
- },
- {
-  "name": "KPK (GHULAM MUSTAFA)",
-  "amount": 0.0
- },
- {
-  "name": "KPK (DILAWAR KHAN)",
   "amount": 0.0
  },
  {
@@ -872,7 +532,7 @@
   "amount": 0.0
  },
  {
-  "name": "KPK (FAZAL UR REHMAN)",
+  "name": "KPK (DILAWAR KHAN)",
   "amount": 0.0
  },
  {
@@ -880,31 +540,19 @@
   "amount": 0.0
  },
  {
+  "name": "KPK (GHULAM MUSTAFA SB)(189)",
+  "amount": 0.0
+ },
+ {
   "name": "KPK (HAMEED ULLAH)",
   "amount": 0.0
- },
- {
-  "name": "KPK (IQBAL KHAN) (187)",
-  "amount": 0.0
- },
- {
-  "name": "GOJRA (KH RASHID BARTAN)",
-  "amount": 28361.0
  },
  {
   "name": "KPK (HAYAT KHAN)",
   "amount": 0.0
  },
  {
-  "name": "JEHLUM (AL-SYED ELECTRONICS) (414)",
-  "amount": 156343.0
- },
- {
-  "name": "PHALIA (AHMAD NADEEM BARTAN )",
-  "amount": -10.0
- },
- {
-  "name": "KPK (ISMAIL SHAH)",
+  "name": "KPK (IQBAL KHAN) (187)",
   "amount": 0.0
  },
  {
@@ -928,14 +576,6 @@
   "amount": 0.0
  },
  {
-  "name": "KPK (MUHAMMAD FAYAZ)",
-  "amount": 0.0
- },
- {
-  "name": "KPK (MUHAMMAD SHAH)",
-  "amount": 0.0
- },
- {
   "name": "KPK (MUJIB KHAN)",
   "amount": 0.0
  },
@@ -948,11 +588,11 @@
   "amount": 0.0
  },
  {
-  "name": "KPK (REHMAT KHAN)",
+  "name": "KPK (REHAN ASHRAF SB)",
   "amount": 0.0
  },
  {
-  "name": "KPK (GHULAM MUSTAFA SB)(189)",
+  "name": "KPK (REHMAT KHAN)",
   "amount": 0.0
  },
  {
@@ -973,10 +613,6 @@
  },
  {
   "name": "KPK (SHAIR KHAN)",
-  "amount": 0.0
- },
- {
-  "name": "KPK (REHAN ASHRAF SB)",
   "amount": 0.0
  },
  {
@@ -1017,34 +653,26 @@
  },
  {
   "name": "KUNJAH (ABDUL RAHMAN BARTAN) (333)",
-  "amount": 861208.4
+  "amount": 1063308.0
  },
  {
   "name": "KUNJAH (AMAN CROCKRY)",
   "amount": 0.0
  },
  {
-  "name": "KUNJAH (ANJUM ATARI) (341)",
-  "amount": 0.0
- },
- {
   "name": "KUNJAH (ARSHAD DOGHAR BARTAN) (345)",
-  "amount": 1099488.4
+  "amount": 858202.0
  },
  {
   "name": "KUNJAH (DLAWER BARTAN) (337)",
-  "amount": 116624.0
+  "amount": 187924.0
  },
  {
   "name": "KUNJAH (FAISAL BARTAN) (341)",
-  "amount": 506311.0
+  "amount": 453904.0
  },
  {
   "name": "KUNJAH (GOHAR ELECTRONICS)",
-  "amount": 0.0
- },
- {
-  "name": "KUNJAH (HAJI AFZAL GONDAL)",
   "amount": 0.0
  },
  {
@@ -1053,19 +681,15 @@
  },
  {
   "name": "KUNJAH (QAISAR BARTAN) (349)",
-  "amount": 116794.0
+  "amount": 110334.0
  },
  {
-  "name": "KUTHIALA SHEIKHAN (AFZAL BARTAN)",
+  "name": "KUNJHA (AM BARTAN)",
   "amount": 0.0
  },
  {
   "name": "KUTHIALA SHEIKHAN (AL SHEKH BARTAN) (7)",
-  "amount": -1003.05
- },
- {
-  "name": "KUTHIALA SHEIKHAN (AL-MAKKAH BARTAN)",
-  "amount": 0.0
+  "amount": -1003.0
  },
  {
   "name": "KUTHIALA SHEIKHAN (AMAAR ELECTRONIC)",
@@ -1073,47 +697,31 @@
  },
  {
   "name": "KUTHIALA SHEIKHAN (AZAM BARTAN) (11)",
-  "amount": 987057.75
- },
- {
-  "name": "KUTHIALA SHEIKHAN (KHURAM BARTAN)",
-  "amount": 0.0
+  "amount": 1024572.0
  },
  {
   "name": "KUTHIALA SHEIKHAN (MOON BARTAN)",
   "amount": 9025.0
  },
  {
-  "name": "KUTHIALA SHEIKHAN (NEW SHERAZ BARTAN)",
-  "amount": 0.0
- },
- {
-  "name": "KUTHIALA SHEIKHAN (PAK ELECTRONICS)",
-  "amount": 0.0
- },
- {
-  "name": "KUTHIALA SHEIKHAN (SHERAZ BARTAN) (23)",
-  "amount": 0.0
- },
- {
   "name": "KUTHIALA SHEIKHAN (USMAN CROCKERY) (17)",
-  "amount": 57585.0
+  "amount": 39585.0
  },
  {
-  "name": "KUTHIALA SHEIKHAN (VIP BARTAN) (17)",
-  "amount": 0.0
+  "name": "LALAMUSA (GEO ELECTRONICS) (432)",
+  "amount": 475864.0
  },
  {
-  "name": "KUTHIALA SHEIKHAN (VIP ELECTRONICS)",
-  "amount": 0.0
+  "name": "LALAMUSA (KITCHEN CHOICE) (434)",
+  "amount": 286150.0
+ },
+ {
+  "name": "LALAMUSA (NEW GENERAL ELECTRONICS) (440)",
+  "amount": 495306.0
  },
  {
   "name": "M.B.DIN (ADEEL CROCKERY) (151)",
-  "amount": 124263.0
- },
- {
-  "name": "M.B.DIN (ADEEL CROCKRY)",
-  "amount": 0.0
+  "amount": 179013.0
  },
  {
   "name": "M.B.DIN (AKASH CROCEKRY",
@@ -1121,23 +729,31 @@
  },
  {
   "name": "M.B.DIN (ALI ABBAS CROCKERY) (1)",
-  "amount": 400549.5
+  "amount": 418150.0
  },
  {
   "name": "M.B.DIN (AL-QAIM CROCKERY) (17)",
-  "amount": 209288.1
+  "amount": 207033.0
  },
  {
   "name": "M.B.DIN (AMJAD SB LANDA BAZAR) (35)",
-  "amount": 557154.5
+  "amount": 518232.0
+ },
+ {
+  "name": "M.B.DIN (ASLAM PLASTIC) (197)",
+  "amount": 0.0
  },
  {
   "name": "M.B.DIN (BABA  ASLAM BARTAN) (67)",
-  "amount": 602916.2
+  "amount": 751726.0
  },
  {
   "name": "M.B.DIN (BABU CROCKRY) (39)",
-  "amount": 81167.5
+  "amount": 100397.0
+ },
+ {
+  "name": "M.B.DIN (BILAL ELECTRONIC)",
+  "amount": 0.0
  },
  {
   "name": "M.B.DIN (BLOCH BARTAN) (IQBAL SB) (113)",
@@ -1145,27 +761,35 @@
  },
  {
   "name": "M.B.DIN (CHOHDRI PLASTIC) (139)",
-  "amount": 253857.2
+  "amount": 270667.0
+ },
+ {
+  "name": "M.B.DIN (DANIYAL ELECTRONICS)",
+  "amount": 236498.0
  },
  {
   "name": "M.B.DIN (DECENT CROCKERY) (43)",
-  "amount": 258000.6
- },
- {
-  "name": "M.B.DIN (HAMZA PLASTIC) (163)",
-  "amount": 36550.0
+  "amount": 224441.0
  },
  {
   "name": "M.B.DIN (FAISAL BARTAN) (59)",
-  "amount": 134054.7
+  "amount": 113805.0
+ },
+ {
+  "name": "M.B.DIN (FARHAT ABBAS) (169)",
+  "amount": 0.0
  },
  {
   "name": "M.B.DIN (GUJRANWALA BARTAN) (71)",
-  "amount": 249996.3
+  "amount": 470344.0
  },
  {
   "name": "M.B.DIN (HAKIM MALL) (135)",
-  "amount": 177966.6
+  "amount": 875877.0
+ },
+ {
+  "name": "M.B.DIN (HAMZA PLASTIC) (163)",
+  "amount": 15360.0
  },
  {
   "name": "M.B.DIN (HASSAN ELECTRONICS) (118)",
@@ -1173,63 +797,59 @@
  },
  {
   "name": "M.B.DIN (IMRAN CROCKERY) (31)",
-  "amount": 117937.0
- },
- {
-  "name": "M.B.DIN (FARHAT ABBAS) (169)",
-  "amount": 0.2
+  "amount": 268279.0
  },
  {
   "name": "M.B.DIN (IQBAL BARTAN) (79)",
-  "amount": 16807.4
- },
- {
-  "name": "M.B.DIN (BILAL ELECTRONIC)",
-  "amount": 0.0
+  "amount": 14807.0
  },
  {
   "name": "M.B.DIN (KADHAR MALL) (131)",
-  "amount": 271399.4
+  "amount": 279974.0
  },
  {
   "name": "M.B.DIN (KAMRAN SB) (127)",
-  "amount": 571708.0
+  "amount": 486708.0
  },
  {
-  "name": "M.B.DIN (MADINA CROCKERY LANDA BAZAR)",
+  "name": "M.B.DIN (KH TRADERS AZHAR SB) (169)",
+  "amount": 39786.0
+ },
+ {
+  "name": "M.B.DIN (KHAN TRADERS NAGINA CINEMA)",
   "amount": 0.0
  },
  {
-  "name": "KOT MOMIN (ASIF PARACHA BARTAN) (249)",
-  "amount": 468103.4
+  "name": "M.B.DIN (MALIK BARTAN) (177)",
+  "amount": 45345.0
+ },
+ {
+  "name": "M.B.DIN (MEHMOOD BARTAN) (147)",
+  "amount": 35970.0
  },
  {
   "name": "M.B.DIN (MIAN AKBAR BARTAN) (5)",
-  "amount": 145635.0
+  "amount": 113635.0
  },
  {
   "name": "M.B.DIN (MIAN WRIETY) (83)",
-  "amount": 2345182.75
+  "amount": 2557966.0
  },
  {
   "name": "M.B.DIN (MUJAHID BARTAN) (97)",
-  "amount": 179567.1
+  "amount": 134567.0
+ },
+ {
+  "name": "M.B.DIN (MUSA BARTAN)",
+  "amount": 0.0
  },
  {
   "name": "M.B.DIN (NAEEM BARTAN) (105)",
-  "amount": 103991.8
+  "amount": 103402.0
  },
  {
   "name": "M.B.DIN (NASAR BARTAN) (109)",
-  "amount": 375144.9
- },
- {
-  "name": "M.B.DIN (NASEEM AKHTIR CROCKERY)",
-  "amount": 0.0
- },
- {
-  "name": "M.B.DIN (NAVEED BARTAN) (159)",
-  "amount": 0.0
+  "amount": 416598.0
  },
  {
   "name": "M.B.DIN (NEW SUBHAN CROCRY)",
@@ -1241,11 +861,15 @@
  },
  {
   "name": "M.B.DIN (PLAZA CROCKERY) (ABID SB) (119)",
-  "amount": 583625.0
+  "amount": 0.0
  },
  {
   "name": "M.B.DIN (PLAZA ELECTRONIC) (FARRUKH SB) (123)",
-  "amount": 24138.0
+  "amount": 400294.0
+ },
+ {
+  "name": "M.B.DIN (PUNJAB CROCKERY) (159)",
+  "amount": 19045.0
  },
  {
   "name": "M.B.DIN (QALAB ABBAS SB) (15)",
@@ -1253,11 +877,7 @@
  },
  {
   "name": "M.B.DIN (QARI SANA ULLAH SB) KING ROAD",
-  "amount": 10140.0
- },
- {
-  "name": "M.B.DIN (RAFIQ BARTAN) (103)",
-  "amount": 0.0
+  "amount": 19700.0
  },
  {
   "name": "M.B.DIN (RAJPOOT CROCKRY) (111)",
@@ -1265,23 +885,15 @@
  },
  {
   "name": "M.B.DIN (RAZA PLASTIC) (63)",
-  "amount": 66399.7
+  "amount": 99683.0
  },
  {
   "name": "M.B.DIN (SAFDAR BARTAN) (75)",
-  "amount": 355364.7
+  "amount": 339695.0
  },
  {
-  "name": "M.B.DIN (MEHMOOD BARTAN) (147)",
-  "amount": 33170.0
- },
- {
-  "name": "M.B.DIN (PUNJAB CROCKERY) (159)",
-  "amount": 25735.0
- },
- {
-  "name": "M.B.DIN (SHOAIB ARIF)",
-  "amount": 0.0
+  "name": "M.B.DIN (SHAHID KHAN) (155)",
+  "amount": 97835.0
  },
  {
   "name": "M.B.DIN (SHOAIB BARTAN)",
@@ -1292,20 +904,12 @@
   "amount": 1471.0
  },
  {
-  "name": "M.B.DIN (SOFI BARTN)",
-  "amount": 0.0
- },
- {
   "name": "M.B.DIN (STYLISH CROCKRY) (53)",
-  "amount": 634822.6
+  "amount": 772985.0
  },
  {
   "name": "M.B.DIN (SUBHAN ALLAH WRIETY) (19)",
-  "amount": 59679.6
- },
- {
-  "name": "M.B.DIN (SUNNY BARTAN) (93)",
-  "amount": 0.0
+  "amount": 124313.0
  },
  {
   "name": "M.B.DIN (SUPER BARTAN) (101)",
@@ -1316,16 +920,20 @@
   "amount": 0.0
  },
  {
+  "name": "M.B.DIN (TAJ GUL SUGARMILL) (143)",
+  "amount": 64941.0
+ },
+ {
   "name": "M.B.DIN (TALHA ZAFAR) (9)",
-  "amount": 156712.8
+  "amount": 156713.0
  },
  {
   "name": "M.B.DIN (TANVEER BARTAN) (93)",
-  "amount": 282992.4
+  "amount": 257492.0
  },
  {
   "name": "M.B.DIN (UMER BARTAN) (23)",
-  "amount": 18.8
+  "amount": -8851.0
  },
  {
   "name": "M.B.DIN (UMER GULZAR QADR PLAZA)",
@@ -1333,11 +941,7 @@
  },
  {
   "name": "M.B.DIN (UNIQUE CROCKERY) (47)",
-  "amount": 562628.2
- },
- {
-  "name": "M.B.DIN (SHAHID KHAN) (155)",
-  "amount": 96230.4
+  "amount": 533345.0
  },
  {
   "name": "M.B.DIN (USAMA BARTAN)",
@@ -1349,7 +953,7 @@
  },
  {
   "name": "M.B.DIN (WASU BARTAN)",
-  "amount": 13362.2
+  "amount": 13362.0
  },
  {
   "name": "M.B.DIN (WP) (MILLAT ELECTRONICS) (1)",
@@ -1360,27 +964,31 @@
   "amount": 0.0
  },
  {
+  "name": "M.B.DIN (YASIR BARTAN) (173)",
+  "amount": 20.0
+ },
+ {
   "name": "M.B.DIN (ZAFAR BABA SHAH DIN) (27)",
-  "amount": 362414.8
+  "amount": 314626.0
  },
  {
   "name": "M.B.DIN (ZAFAR NAWAZ BARTAN) (25)",
   "amount": 6719.0
  },
  {
-  "name": "MALIKWAL (CHAUDHARY ELECTRONICS) (41)",
-  "amount": 0.0
- },
- {
   "name": "MALIKWAL (ABDUL GAFOOR BARTAN) (13)",
-  "amount": 30764.6
+  "amount": 151755.0
  },
  {
   "name": "MALIKWAL (ADNAN BARTAN)",
   "amount": 23263.0
  },
  {
-  "name": "MALIKWAL (ALI SONS)",
+  "name": "MALIKWAL (CHAUDHARY ELECTRONICS) (41)",
+  "amount": 0.0
+ },
+ {
+  "name": "MALIKWAL (DATA CROCKERY)",
   "amount": 0.0
  },
  {
@@ -1389,11 +997,15 @@
  },
  {
   "name": "MALIKWAL (HAMZA PLASTIC) (7)",
-  "amount": 75225.0
+  "amount": 70225.0
  },
  {
   "name": "MALIKWAL (KHAN ELECTRONIC) (23)",
-  "amount": 82364.0
+  "amount": 190564.0
+ },
+ {
+  "name": "MALIKWAL (KHAYAL DIN QUEATA SADDAT) (181)",
+  "amount": 0.0
  },
  {
   "name": "MALIKWAL (KHURAM BARTAN)",
@@ -1401,35 +1013,27 @@
  },
  {
   "name": "MALIKWAL (MODREN CROCKERY) (27)",
-  "amount": 354318.72
+  "amount": 762045.0
  },
  {
   "name": "MALIKWAL (NEW FANCY CROCKRY)",
   "amount": 2975.0
  },
  {
-  "name": "MALIKWAL (DATA CROCKERY)",
-  "amount": 0.0
- },
- {
   "name": "MALIKWAL (PUNJAB ELECTRONIC) (13)",
   "amount": 6165.0
  },
  {
-  "name": "MALIKWAL (QAMAR CHAYE)",
-  "amount": 0.0
- },
- {
-  "name": "MALIKWAL (RANA IRSHAD BARTAN) (33)",
-  "amount": 0.0
+  "name": "MALIKWAL (RAFEEQ SAB BARTAN)",
+  "amount": 25769.0
  },
  {
   "name": "MALIKWAL (RANA QASIM BARTAN) (33)",
-  "amount": 156394.6
+  "amount": 101395.0
  },
  {
   "name": "MALIKWAL (SAFDAR BARTAN) (19)",
-  "amount": 307778.4
+  "amount": 222778.0
  },
  {
   "name": "MALIKWAL (SH ALI BARTAN) (33)",
@@ -1437,11 +1041,11 @@
  },
  {
   "name": "MALIKWAL (SH SHAKOOR SB) (43)",
-  "amount": -0.2
+  "amount": 0.0
  },
  {
   "name": "MALIKWAL (ZUBAIR BARTAN) (37)",
-  "amount": 260611.8
+  "amount": 341399.0
  },
  {
   "name": "MANGAT (MEHNDI KHAN)",
@@ -1456,44 +1060,36 @@
   "amount": 0.0
  },
  {
-  "name": "MANGOWAL (AMAAR BARTAN STORE)",
-  "amount": 0.0
- },
- {
-  "name": "MANGOWAL (BUKHARI BARTAN)",
-  "amount": 0.0
- },
- {
   "name": "MANGOWAL (EHSAN BARTAN)",
   "amount": 0.0
  },
  {
   "name": "MANGOWAL (HAMZA BARTAN) (323)",
-  "amount": 324681.878
+  "amount": 417782.0
  },
  {
   "name": "MANGOWAL (MADNI BARTAN) (315)",
-  "amount": 282706.9
+  "amount": 330547.0
+ },
+ {
+  "name": "MANGOWAL (NAQSHBANDI BARTAN) (331)",
+  "amount": 403205.0
  },
  {
   "name": "MANGOWAL (SAHI BARTAN) (319)",
-  "amount": 489730.5
+  "amount": 486171.0
  },
  {
   "name": "MANGOWAL (SHABIR BARTAN) (327)",
-  "amount": 1506981.7
+  "amount": 880452.0
  },
  {
-  "name": "MANGOWAL (SHEHBAZ ELECTRONIC)",
-  "amount": 0.0
- },
- {
-  "name": "MANGOWAL( BM BARTAN)",
-  "amount": 0.0
+  "name": "MIANAGONDAL (AYAN BARTAN) (289)",
+  "amount": 23324.0
  },
  {
   "name": "MIANAGONDAL (AZAM BARTAN) (273)",
-  "amount": 207695.9
+  "amount": 305918.0
  },
  {
   "name": "MIANAGONDAL (BASIT BARTAN) (293)",
@@ -1501,15 +1097,15 @@
  },
  {
   "name": "MIANAGONDAL (HAJI YOUNIS BARTAN) (269)",
-  "amount": 84351.1
+  "amount": 81351.0
  },
  {
   "name": "MIANAGONDAL (HAJI YOUSAF BARTAN) (297)",
-  "amount": 84419.0
+  "amount": 74419.0
  },
  {
   "name": "MIANAGONDAL (HAJI ZAFAR BARTAN) (265)",
-  "amount": 154979.9
+  "amount": 155146.0
  },
  {
   "name": "MIANAGONDAL (INSAF BARTAN)",
@@ -1517,7 +1113,7 @@
  },
  {
   "name": "MIANAGONDAL (JAVEED BARTAN) (279)",
-  "amount": 480557.9
+  "amount": 529498.0
  },
  {
   "name": "MIANAGONDAL (KH ANWAAR SB) (239)",
@@ -1525,7 +1121,7 @@
  },
  {
   "name": "MIANAGONDAL (KH IMRAN) (259)",
-  "amount": 370396.0
+  "amount": 439401.0
  },
  {
   "name": "MIANAGONDAL (KH TARIQ BARTAN)",
@@ -1533,27 +1129,23 @@
  },
  {
   "name": "MIANAGONDAL (NOOR BARTAN) (285)",
-  "amount": 41445.8
+  "amount": 40446.0
  },
  {
   "name": "MIANAGONDAL (RANA  ASGHAR BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "MIANAGONDAL (AYAN BARTAN) (289)",
-  "amount": 27099.4
- },
- {
   "name": "MIANI (ABDUR REHMAN BARTAN) (65)",
-  "amount": 84316.2
+  "amount": 87691.0
  },
  {
   "name": "MIANI (AHMED BARTAN) (85)",
-  "amount": 50755.2
+  "amount": 41430.0
  },
  {
   "name": "MIANI (ALI HAJWERE BARTAN) (61)",
-  "amount": 251379.2
+  "amount": 239569.0
  },
  {
   "name": "MIANI (AMJAD CROCKERY)",
@@ -1561,63 +1153,63 @@
  },
  {
   "name": "MIANI (GHAZI BARTAN) (69)",
-  "amount": 25561.2
+  "amount": 10279.0
  },
  {
   "name": "MIANI (HAJI UMER BARTAN) (55)",
-  "amount": 404237.5
- },
- {
-  "name": "MIANI (ZAFAR ABBAS SB) (91)",
-  "amount": 532767.6
+  "amount": 286885.0
  },
  {
   "name": "MIANI (HAMEED BARTAN) (51)",
-  "amount": 55968.4
+  "amount": 56118.0
  },
  {
-  "name": "MIANI (JAMAL BARTAN) (77)",
-  "amount": 93054.0
- },
- {
-  "name": "MIANI (KH ALI TRUNK) (103)",
-  "amount": 36418.0
- },
- {
-  "name": "MIANI (MALIK ELECTRONICS) (107)",
-  "amount": 4256.0
- },
- {
-  "name": "MIANI (MUSHTAQ BARTAN) (95)",
-  "amount": 36830.0
- },
- {
-  "name": "MIANI (SHOAIB BARTAN) (81)",
-  "amount": 68479.0
- },
- {
-  "name": "MIANI (SUBEDAR BARTAN) (73)",
-  "amount": 8785.2
- },
- {
-  "name": "MIANI (TAHIR GULZAR SB) (99)",
-  "amount": 454527.8
- },
- {
-  "name": "MIANWAL (ABDUL RAUF BARTAN) (35)",
-  "amount": 214760.7
- },
- {
-  "name": "MIANWAL (AZHAR BARTAN)",
+  "name": "MIANI (HARAL ELECTRONICS) (105)",
   "amount": 0.0
  },
  {
+  "name": "MIANI (JAMAL BARTAN) (77)",
+  "amount": 105950.0
+ },
+ {
+  "name": "MIANI (KH ALI TRUNK) (103)",
+  "amount": 26918.0
+ },
+ {
+  "name": "MIANI (MALIK ELECTRONICS) (107)",
+  "amount": 0.0
+ },
+ {
+  "name": "MIANI (MUSHTAQ BARTAN) (95)",
+  "amount": 26830.0
+ },
+ {
+  "name": "MIANI (SHOAIB BARTAN) (81)",
+  "amount": 83074.0
+ },
+ {
+  "name": "MIANI (SUBEDAR BARTAN) (73)",
+  "amount": 10987.0
+ },
+ {
+  "name": "MIANI (TAHIR GULZAR SB) (99)",
+  "amount": 400118.0
+ },
+ {
+  "name": "MIANI (ZAFAR ABBAS SB) (91)",
+  "amount": 640177.0
+ },
+ {
+  "name": "MIANWAL (ABDUL RAUF BARTAN) (35)",
+  "amount": 215791.0
+ },
+ {
   "name": "MIANWAL (HAFIZ STEEL) (29)",
-  "amount": 383225.4
+  "amount": 465601.0
  },
  {
   "name": "MIANWAL (SH SAIF BARTAN) (23)",
-  "amount": 1045358.05
+  "amount": 1131920.0
  },
  {
   "name": "MUHAMDANA (SONI KHAN) (187)",
@@ -1629,23 +1221,11 @@
  },
  {
   "name": "NAKKA KHALASPUR (MAJEED BARTAN) (443)",
-  "amount": 81643.3
+  "amount": 126073.0
  },
  {
   "name": "NAKKA KHALASPUR (RASHEED BARTAN) (449)",
-  "amount": 133269.9
- },
- {
-  "name": "NASIR SB (BHALWAL)",
-  "amount": 0.0
- },
- {
-  "name": "NAZAR BARTAN (PHULARWAN)",
-  "amount": 0.0
- },
- {
-  "name": "NAZIR BAJWA SB (PHULARWAN)",
-  "amount": 0.0
+  "amount": 133111.0
  },
  {
   "name": "P.D.KHAN (AJAB GULL BARTAN)",
@@ -1656,32 +1236,20 @@
   "amount": 142224.0
  },
  {
-  "name": "P.D.KHAN (DECENT BARTAN)",
-  "amount": 0.0
- },
- {
   "name": "P.D.KHAN (FAROOQ DIOMAND CROCKERY)",
   "amount": 22917.0
  },
  {
-  "name": "P.D.KHAN (FREINDS ELECTRONICS)",
-  "amount": 0.0
- },
- {
   "name": "P.D.KHAN (IJAZ FANCE CROCKERY) (213)",
-  "amount": 317542.1
+  "amount": 474314.0
  },
  {
   "name": "P.D.KHAN (KH KHADAM CROCKERY) (227)",
-  "amount": 646.7
+  "amount": 9442.0
  },
  {
   "name": "P.D.KHAN (KH KOUSER CROCKERY) (221)",
-  "amount": 0.8
- },
- {
-  "name": "KUNJHA (AM BARTAN)",
-  "amount": 0.0
+  "amount": 1.0
  },
  {
   "name": "P.D.KHAN (MOON BARTAN) (217)",
@@ -1689,7 +1257,7 @@
  },
  {
   "name": "P.D.KHAN (QASIR BARTAN) (229)",
-  "amount": 0.0
+  "amount": -8782.0
  },
  {
   "name": "P.D.KHAN (SH KHURAM)",
@@ -1697,11 +1265,15 @@
  },
  {
   "name": "P.D.KHAN (SH MUNEER SB) (237)",
-  "amount": -0.5
+  "amount": 202150.0
+ },
+ {
+  "name": "P.D.KHAN (SUBHAN ELECTRONICS) (239)",
+  "amount": 25000.0
  },
  {
   "name": "P.D.KHAN (SUNNY BARTAN) (233)",
-  "amount": 187815.0
+  "amount": 280655.0
  },
  {
   "name": "P.D.KHAN (TAHIR CROCKERY) (209)",
@@ -1709,131 +1281,87 @@
  },
  {
   "name": "PAHREWALI (ANSAR BARTAN) (301)",
-  "amount": 414934.0
+  "amount": 394159.0
+ },
+ {
+  "name": "PAHREWALI (GONDAL BARTAN) (309)",
+  "amount": 1.0
  },
  {
   "name": "PAHREWALI (ISLAM BARTAN) (305)",
-  "amount": 1093657.1
- },
- {
-  "name": "PAHREWALI (ISLAM ELECTRONIC)(ASGAR SB) (309)",
-  "amount": 0.0
- },
- {
-  "name": "PAHREWALI (JAVEED SB)",
-  "amount": 0.0
- },
- {
-  "name": "PAHREWALI (LAL KHAN)",
-  "amount": 0.0
+  "amount": 1549238.0
  },
  {
   "name": "PAHREWALI (M HUSSAIN CROCKERY) (293)",
-  "amount": 159978.2
+  "amount": 167290.0
  },
  {
   "name": "PAHREWALI (WATAN BARTAN) (297)",
   "amount": 180.0
  },
  {
-  "name": "PERWEZ BARTAN (PINDI SEEDPUR)",
-  "amount": 0.0
- },
- {
   "name": "PHALIA  (AL HAFIZ BARTAN) (131)",
   "amount": 0.0
  },
  {
-  "name": "PHALIA  (BASHIR BARTAN) (91)",
+  "name": "PHALIA (ABDUR REHMAN BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "PHALIA  (DATA BARTAN)",
+  "name": "PHALIA (AHMAD NADEEM BARTAN )",
+  "amount": -10.0
+ },
+ {
+  "name": "PHALIA (ARSHAD CROCKERY)",
   "amount": 0.0
  },
  {
-  "name": "PHALIA  (GOSIA BARTAN) (95)",
-  "amount": 166200.0
- },
- {
-  "name": "PHALIA  (IRFAN ELECTRONIC)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA (MADINA BARTAN) (99)",
-  "amount": 3680.0
- },
- {
-  "name": "PHALIA  (MEHBOBIYA BARTAN) (87)",
-  "amount": 95769.0
- },
- {
-  "name": "PHALIA  (PUNJAB CROCKERY)",
-  "amount": 5448.0
- },
- {
-  "name": "PHALIA  (SADIQIYA BARTAN) (87)",
-  "amount": 130930.0
- },
- {
-  "name": "PHALIA  (SH AMIR)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA  (SHAHID SB) (129)",
-  "amount": 227880.8
- },
- {
-  "name": "PHALIA  (TARIQ BARTAN) (141)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA  (UMAIR ELECTRONICS)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA  (ZESHAN CROCKERY)",
-  "amount": 3246.0
- },
- {
-  "name": "PHALIA (ABDUR REHMAN BARTAN) (111)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA (AHMED NADEEM BARTAN STORE)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA (AL-KARAM BARTAN)",
+  "name": "PHALIA (BASHIR BARTAN) (91)",
   "amount": 0.0
  },
  {
   "name": "PHALIA (BILAL PLASTIC) (115)",
-  "amount": 86830.0
+  "amount": 38570.0
  },
  {
-  "name": "PHALIA (BM BARTAN)",
+  "name": "PHALIA (CASH & CARRY) (145)",
+  "amount": 227620.0
+ },
+ {
+  "name": "PHALIA (DATA BARTAN)",
   "amount": 0.0
+ },
+ {
+  "name": "PHALIA (GOSIA BARTAN) (95)",
+  "amount": 126200.0
  },
  {
   "name": "PHALIA (IBRAHIM BARTN) (103)",
-  "amount": 336522.0
+  "amount": 236522.0
  },
  {
   "name": "PHALIA (JAWAD BARTAN STORE) (119)",
-  "amount": 1227044.2
+  "amount": 1367781.0
  },
  {
   "name": "PHALIA (LASANI BARTAN) (137)",
-  "amount": 105770.6
+  "amount": 95771.0
+ },
+ {
+  "name": "PHALIA (MADINA BARTAN) (99)",
+  "amount": 38202.0
  },
  {
   "name": "PHALIA (MADNI BARTAN) (141)",
-  "amount": 654596.55
+  "amount": 509827.0
  },
  {
-  "name": "PHALIA (RAINBOW ELECTRONICS)",
-  "amount": 0.0
+  "name": "PHALIA (MEHBOBIYA BARTAN) (87)",
+  "amount": 104544.0
+ },
+ {
+  "name": "PHALIA (PUNJAB CROCKERY)",
+  "amount": 5448.0
  },
  {
   "name": "PHALIA (RANA MUNAWAR BARTAN) (103)",
@@ -1844,56 +1372,56 @@
   "amount": 0.0
  },
  {
+  "name": "PHALIA (SADIQIYA BARTAN) (87)",
+  "amount": 110930.0
+ },
+ {
   "name": "PHALIA (SEADA BARTAN) (133)",
   "amount": 100.0
  },
  {
+  "name": "PHALIA (SHAHID SB) (129)",
+  "amount": 152881.0
+ },
+ {
   "name": "PHALIA (UMER GIFT CENTER) (125)",
-  "amount": 15236.0
+  "amount": 7236.0
  },
  {
-  "name": "PHALIA (WIRK BARTAN) (101)",
-  "amount": 0.0
- },
- {
-  "name": "PHALIA (ZAHEER AKBER)",
-  "amount": 0.0
+  "name": "PHALIA (ZESHAN CROCKERY)",
+  "amount": 3246.0
  },
  {
   "name": "PHULARWAN (AL-MADAD BARTAN) (339)",
-  "amount": 229957.0
+  "amount": 214957.0
  },
  {
   "name": "PHULARWAN (AL-REHMAN BARTAN) (333)",
-  "amount": 2068714.4
- },
- {
-  "name": "PHULARWAN (BILAL JENRAL STORE)",
-  "amount": 0.0
+  "amount": 2102290.0
  },
  {
   "name": "PHULARWAN (JAVED BARTAN) (323)",
-  "amount": 897238.65
+  "amount": 986763.0
  },
  {
-  "name": "PHULARWAN (JUGNO GENERAL STORE)",
+  "name": "PHULARWAN (KASHMIR BARTAN)",
   "amount": 0.0
  },
  {
   "name": "PHULARWAN (MADINA BARTAN) (343)",
-  "amount": 174186.1
+  "amount": 174186.0
  },
  {
   "name": "PHULARWAN (NAZAR BARTAN) (315)",
-  "amount": 21027.8
+  "amount": 121928.0
  },
  {
   "name": "PHULARWAN (SAIF BARTAN) (319)",
-  "amount": 126820.0
+  "amount": 96820.0
  },
  {
   "name": "PHULARWAN (SANUM BARTAN) (329)",
-  "amount": 15283.0
+  "amount": 142923.0
  },
  {
   "name": "PHULARWAN (TASWAR BARTAN)",
@@ -1901,390 +1429,106 @@
  },
  {
   "name": "PHULARWAN (UMER HAYAT BARTAN) (309)",
-  "amount": 752639.9
+  "amount": 757894.0
  },
  {
   "name": "PINANWAL  (AL NOOR ELECTRONICS) (167)",
   "amount": 8.0
  },
  {
-  "name": "PINANWAL (MANZOOR BARTAN)",
-  "amount": 0.0
- },
- {
   "name": "PINDI SEEDPUR  (ABDUL RAZAQ BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "PINDI SEEDPUR  (CHAUDHARY BARTAN) (165)",
-  "amount": 426104.8
+  "name": "PINDI SEEDPUR (ASIF SHAH SB) (169)",
+  "amount": 78735.0
+ },
+ {
+  "name": "PINDI SEEDPUR (CHAUDHARY BARTAN) (165)",
+  "amount": 593073.0
  },
  {
   "name": "PINDI SEEDPUR (FAROQI BARTAN) (159)",
-  "amount": 491076.0
- },
- {
-  "name": "PINDI SEEDPUR (HUSNAIN SHAH)1",
-  "amount": 0.0
- },
- {
-  "name": "PINDI SEEDPUR (ASIF SHAH SB) (169)",
-  "amount": 98369.0
+  "amount": 515721.0
  },
  {
   "name": "QADRABAD (ARSHAD BARTAN) (69)",
-  "amount": 221131.2
- },
- {
-  "name": "QADRABAD (FARHAN KHAN SB)",
-  "amount": 0.0
+  "amount": 222638.0
  },
  {
   "name": "QADRABAD (HELLO BROTHERS) (57)",
-  "amount": 745937.45
+  "amount": 809876.0
  },
  {
   "name": "QADRABAD (JAVEED BARTAN) (63)",
-  "amount": 1118658.6
+  "amount": 1092879.0
  },
  {
   "name": "QADRABAD (MADINA BARTAN) (75)",
-  "amount": 79044.3
+  "amount": 90926.0
  },
  {
   "name": "QADRABAD (RIAZ BARTAN) (53)",
   "amount": 0.0
  },
  {
-  "name": "QADRABAD (SYED AKHTAR)",
-  "amount": 0.0
- },
- {
   "name": "RAWALPINDI (SANUM BARTAN) (465)",
-  "amount": 916513.15
- },
- {
-  "name": "RIZWAN CROCKERY (DHARYALAJALB)",
-  "amount": 0.0
+  "amount": 716513.0
  },
  {
   "name": "SAEDA SHARIF (SAEEDVE BARTAN) (81)",
-  "amount": 47036.2
- },
- {
-  "name": "SARAI ALAMGIR (MALIK BROTHERS YASIR SB) (387)",
-  "amount": 28026.0
- },
- {
-  "name": "SARFRAZ BARTAN (MIYANI)",
-  "amount": 0.0
- },
- {
-  "name": "SINGHOI (BILAL BARTAN) (439)",
-  "amount": 21190.2
- },
- {
-  "name": "SINGHOI (SAJJAD BARTAN) (375)",
-  "amount": 0.0
- },
- {
-  "name": "TANVIR CROCKRY JALAL PUR SHRIF",
-  "amount": 0.0
- },
- {
-  "name": "TARAQABAD (HAYAT BARTAN) (41)",
-  "amount": 73465.65
- },
- {
-  "name": "TIME STAR CROCKERY (CLASKAY)",
-  "amount": 0.0
- },
- {
-  "name": "WALKING CUSTOMER",
-  "amount": -0.1
- },
- {
-  "name": "WAZIRABAD (HAFIZ BROTHER,S)",
-  "amount": 1523.0
- },
- {
-  "name": "ZAMEER SB (PHULARWAN)",
-  "amount": 0.0
- },
- {
-  "name": "Cash Inhand",
-  "amount": 17603071.28
- },
- {
-  "name": "Closing Stock",
-  "amount": 46724350.39
- },
- {
-  "name": "FRIEGHT CHARGES",
-  "amount": -2891022.0
- },
- {
-  "name": "COGS Main",
-  "amount": 358664613.0
- },
- {
-  "name": "Sales",
-  "amount": -425266061.45
- },
- {
-  "name": "Sales Return",
-  "amount": 6170298.7
- },
- {
-  "name": "Sales Discount Main",
-  "amount": 5646642.172
- },
- {
-  "name": "Purchase Discount",
-  "amount": -236633.0
- },
- {
-  "name": "ABDULLAH (GRW)",
-  "amount": -1097140.0
- },
- {
-  "name": "NS KITCHEN SET (GRW)",
-  "amount": -7259.32
- },
- {
-  "name": "MIX MALL",
-  "amount": -2.5
- },
- {
-  "name": "CASH PURCHASING",
-  "amount": 0.5
- },
- {
-  "name": "SHAHID SB ROYAL WHITE STONE (LHR)",
-  "amount": 0.0
- },
- {
-  "name": "FIYAZ SB WELNA MELAMINE (GRW)",
-  "amount": -73060.0
- },
- {
-  "name": "ABDULLAH JAVED (GRW)",
-  "amount": -18700.0
- },
- {
-  "name": "AKHTAR SB PANJA (KRACHI)",
-  "amount": -3200.0
- },
- {
-  "name": "RABAR COOKER ABID BUTT (GRW)",
-  "amount": 9043.04
- },
- {
-  "name": "SHOKAT SB (GRW)",
-  "amount": 0.0
- },
- {
-  "name": "BRIDAL DINNER RIAZ SB (GRW)",
-  "amount": -580800.0
- },
- {
-  "name": "M HUSSAIN GHULAM (GRW)",
-  "amount": -90815.08
- },
- {
-  "name": "ADIL MELAMINE (GRW)",
-  "amount": -670880.0
- },
- {
-  "name": "FINE COOKER CHITAN METALS (GRW)",
-  "amount": -3300.0
- },
- {
-  "name": "ROUND DINER ADIL SB (GRW)",
-  "amount": -94000.0
- },
- {
-  "name": "GM JUG (GRW)",
-  "amount": 200900.0
- },
- {
-  "name": "NAFEES TOTI (KRACHI)",
-  "amount": 51600.0
- },
- {
-  "name": "SHEHRAZ SB WOOD STAND (GRW)",
-  "amount": -3600.0
- },
- {
-  "name": "MANSORI TRADERS (KRI)",
-  "amount": -716422.0
- },
- {
-  "name": "QASIR MATEL GRW",
-  "amount": -99592.5
- },
- {
-  "name": "ZULFEQAR SHAH (GRW)",
-  "amount": -174000.0
- },
- {
-  "name": "RIZWAN STEEL (GRW)",
-  "amount": -57600.0
- },
- {
-  "name": "CASH SALE",
-  "amount": 0.0
- },
- {
-  "name": "M.B.DIN (TAJ GUL SUGARMILL) (143)",
-  "amount": 68822.5
- },
- {
-  "name": "M.B.DIN (KH TRADERS AZHAR SB) (169)",
-  "amount": 79786.2
- },
- {
-  "name": "M.B.DIN (MUSA BARTAN)",
-  "amount": 0.0
+  "amount": 194861.0
  },
  {
   "name": "SARAI ALAMGIR (AWAN BROTHERS) (391)",
-  "amount": 89375.0
+  "amount": 48475.0
  },
  {
-  "name": "JEHLUM (AFZAL PLASTIC STORE) (419)",
-  "amount": 279348.45
- },
- {
-  "name": "KHARIAN (CITY ELECTRONICS) (363)",
-  "amount": 213.0
- },
- {
-  "name": "KHARIAN (ASAD KHAN BARTAN) (371)",
-  "amount": 72905.7
- },
- {
-  "name": "JEHLUM (CITY ELECTRONICS) (423)",
-  "amount": 790123.0
+  "name": "SARAI ALAMGIR (IQBAL BARTAN) (405)",
+  "amount": 339097.0
  },
  {
   "name": "SARAI ALAMGIR (KHALID CROCKERY) (409)",
   "amount": 0.0
  },
  {
-  "name": "KHARIAN (ASCON ELECTRONICS) (359)",
-  "amount": 278474.0
- },
- {
-  "name": "JEHLUM (POWER CITY ELECTRONICS) (429)",
-  "amount": 2283194.0
- },
- {
-  "name": "JEHLUM (SHAMIM ELECTRONICS)",
-  "amount": 0.0
- },
- {
-  "name": "M.B.DIN (YASIR BARTAN) (173)",
-  "amount": 20.0
- },
- {
-  "name": "KHARIAN (AL-FAZAL BARTAN) (379)",
-  "amount": 404024.7
+  "name": "SARAI ALAMGIR (MALIK BROTHERS YASIR SB) (387)",
+  "amount": 26644.0
  },
  {
   "name": "SARAI ALAMGIR (MAZHAR BARTAN) (397)",
-  "amount": 214123.6
- },
- {
-  "name": "KHARIAN (WALEED BARTAN) (383)",
-  "amount": 60625.0
- },
- {
-  "name": "MIANI (HARAL ELECTRONICS) (105)",
-  "amount": 0.0
- },
- {
-  "name": "M.B.DIN (MALIK BARTAN) (177)",
-  "amount": 45195.0
- },
- {
-  "name": "BAJWALA (JANJUA BARTAN) (453)",
-  "amount": 3100.2
- },
- {
-  "name": "KHARIAN (JENERAL ELECTRONIC) (367)",
-  "amount": 941691.0
- },
- {
-  "name": "KHARIAN (AL KARAM BARTAN)",
-  "amount": 0.0
+  "amount": 326114.0
  },
  {
   "name": "SARAI ALAMGIR (MODERN BARTAN) (401",
-  "amount": 380.0
- },
- {
-  "name": "SARAI ALAMGIR (IQBAL BARTAN) (405)",
-  "amount": 458996.5
- },
- {
-  "name": "PAHREWALI (GONDAL BARTAN) (309)",
-  "amount": 0.6
- },
- {
-  "name": "KHARIAN (CH AHMED BARTAN) (385)",
-  "amount": 52256.0
- },
- {
-  "name": "KHARAIN (MALIK BROTHERS ELECTRONICS)(361)",
-  "amount": 1234315.0
- },
- {
-  "name": "PHALIA (CASH & CARRY)(145)",
-  "amount": 277619.6
- },
- {
-  "name": "CHAKWAL (WAQAS BARTAN)",
   "amount": 0.0
  },
  {
-  "name": "MANGOWAL (NAQSHBANDI BARTAN) (331)",
-  "amount": 455604.7
+  "name": "SARAI ALAMGIR (MURTZAH SAHAB) (401)",
+  "amount": 41015.0
  },
  {
-  "name": "KHARAIN (AL JANNAT BARTAN) (375)",
-  "amount": 181330.0
+  "name": "SARAIALAMGIR (DATA CROCKRY) (411)",
+  "amount": 346466.0
  },
  {
-  "name": "JEHLUM (IQBAL ELECTRONICS)",
+  "name": "SINGHOI (BILAL BARTAN) (439)",
   "amount": 0.0
  },
  {
-  "name": "M.B.DIN (DANIYAL ELECTRONICS)",
-  "amount": 32652.0
- },
- {
-  "name": "MALIKWAL (RAFEEQ SAB BARTAN)",
-  "amount": 25768.5
- },
- {
-  "name": "GULIYANA (MALIK BROTHERS HAMZA SAB)(357)",
-  "amount": 101135.0
- },
- {
-  "name": "M.B.DIN (ASLAM PLASTIC) (197)",
+  "name": "SINGHOI (SAJJAD BARTAN) (375)",
   "amount": 0.0
  },
  {
-  "name": "GULIYANA (SAMI NETWORK YASIR SAB)",
-  "amount": 9561.0
+  "name": "TARAQABAD (HAYAT BARTAN) (41)",
+  "amount": 317601.0
  },
  {
-  "name": "P.D.KHAN (SUBHAN ELECTRONICS)",
-  "amount": 4710.0
+  "name": "WALKING CUSTOMER",
+  "amount": 0.0
  },
  {
-  "name": "DINA (ALI ELECTRONICS)(433)",
-  "amount": 438900.0
+  "name": "WAZIRABAD (HAFIZ BROTHER,S)",
+  "amount": 1523.0
  }
 ]

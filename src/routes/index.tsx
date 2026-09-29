@@ -8,6 +8,7 @@ import {
   FileSpreadsheet,
   FileText,
   Github,
+  Pencil,
   RotateCcw,
   Save,
   Search,
@@ -73,6 +74,7 @@ function AccountZone() {
 
   const [nameInput, setNameInput] = useState("");
   const [amountInput, setAmountInput] = useState("");
+  const [editingKey, setEditingKey] = useState<string | null>(null);
   const [highlight, setHighlight] = useState(0);
   const [showSuggest, setShowSuggest] = useState(false);
   const [flash, setFlash] = useState<string | null>(null);
@@ -193,10 +195,31 @@ function AccountZone() {
     }
     const value = toNumber(amountInput);
     setEntries((prev) => ({ ...prev, [keyOf(match.name)]: value }));
-    setFlash(`Saved: ${match.name} = ${fmt(value)}`);
+    setFlash(
+      editingKey ? `Updated: ${match.name} = ${fmt(value)}` : `Saved: ${match.name} = ${fmt(value)}`,
+    );
     setNameInput("");
     setAmountInput("");
+    setEditingKey(null);
     setShowSuggest(false);
+    nameRef.current?.focus();
+  }
+
+  function editEntry(name: string) {
+    const k = keyOf(name);
+    if (entries[k] === undefined) return;
+    setEditingKey(k);
+    setNameInput(name);
+    setAmountInput(String(entries[k]));
+    setShowSuggest(false);
+    setTimeout(() => amountRef.current?.focus(), 0);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function cancelEdit() {
+    setEditingKey(null);
+    setNameInput("");
+    setAmountInput("");
     nameRef.current?.focus();
   }
 
@@ -411,14 +434,69 @@ function AccountZone() {
               placeholder="Manual amount"
               className="num w-full rounded-lg border border-input bg-background/50 px-4 py-3 text-sm outline-none focus:border-primary"
             />
-            <button
-              onClick={saveEntry}
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground hover:opacity-90"
-            >
-              <Save className="size-4" /> Save
-            </button>
+            <div className="flex gap-2">
+              <button
+                onClick={saveEntry}
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground hover:opacity-90"
+              >
+                <Save className="size-4" /> {editingKey ? "Update" : "Save"}
+              </button>
+              {editingKey && (
+                <button
+                  onClick={cancelEdit}
+                  className="inline-flex items-center justify-center gap-2 rounded-lg border border-border px-4 py-3 text-sm text-muted-foreground hover:text-foreground"
+                >
+                  Cancel
+                </button>
+              )}
+            </div>
           </div>
+          {editingKey && (
+            <p className="mt-3 text-xs text-warning">
+              Edit mode: entry update ho rahi hai — Enter dabayen ya Update click karein
+            </p>
+          )}
           {flash && <p className="mt-3 text-xs text-accent">{flash}</p>}
+
+          {/* Saved entries list */}
+          {entryCount > 0 && (
+            <div className="mt-5 border-t border-border/60 pt-4">
+              <h3 className="mb-2 text-xs font-semibold tracking-widest text-muted-foreground">
+                AAPKI ENTRIES ({entryCount})
+              </h3>
+              <ul className="grid max-h-56 gap-1 overflow-auto sm:grid-cols-2 lg:grid-cols-3">
+                {Object.entries(entries)
+                  .sort(([a], [b]) => a.localeCompare(b))
+                  .map(([k, v]) => (
+                    <li
+                      key={k}
+                      className="flex items-center justify-between gap-2 rounded-md bg-background/50 px-3 py-1.5 text-xs"
+                    >
+                      <span className="truncate" title={k}>
+                        {k}
+                      </span>
+                      <span className="flex shrink-0 items-center gap-2">
+                        <span className="num font-medium text-foreground">{fmt(v)}</span>
+                        <button
+                          onClick={() => editEntry(k)}
+                          title="Edit entry"
+                          className="text-muted-foreground hover:text-primary"
+                        >
+                          <Pencil className="size-3.5" />
+                        </button>
+                        <button
+                          onClick={() => removeEntry(k)}
+                          title="Delete entry"
+                          className="text-muted-foreground hover:text-destructive"
+                        >
+                          <Trash2 className="size-3.5" />
+                        </button>
+                      </span>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          )}
         </section>
 
         {/* Summary */}
@@ -530,7 +608,12 @@ function AccountZone() {
               </thead>
               <tbody>
                 {filtered.map((r) => (
-                  <Row key={r.name} row={r} onRemove={() => removeEntry(r.name)} />
+                  <Row
+                    key={r.name}
+                    row={r}
+                    onEdit={() => editEntry(r.name)}
+                    onRemove={() => removeEntry(r.name)}
+                  />
                 ))}
                 {filtered.length === 0 && (
                   <tr>
@@ -562,7 +645,15 @@ function Stat({ label, value, tone }: { label: string; value: string; tone: stri
   );
 }
 
-function Row({ row, onRemove }: { row: ReportRow; onRemove: () => void }) {
+function Row({
+  row,
+  onEdit,
+  onRemove,
+}: {
+  row: ReportRow;
+  onEdit: () => void;
+  onRemove: () => void;
+}) {
   return (
     <tr className="border-b border-border/60 last:border-0 hover:bg-secondary/30">
       <td className="max-w-[26rem] truncate px-4 py-2.5">{row.name}</td>
@@ -585,13 +676,22 @@ function Row({ row, onRemove }: { row: ReportRow; onRemove: () => void }) {
       </td>
       <td className="px-2 py-2.5 text-right">
         {row.manual !== null && (
-          <button
-            onClick={onRemove}
-            title="Entry delete"
-            className="text-muted-foreground hover:text-destructive"
-          >
-            <Trash2 className="size-4" />
-          </button>
+          <span className="inline-flex items-center gap-2">
+            <button
+              onClick={onEdit}
+              title="Entry edit"
+              className="text-muted-foreground hover:text-primary"
+            >
+              <Pencil className="size-4" />
+            </button>
+            <button
+              onClick={onRemove}
+              title="Entry delete"
+              className="text-muted-foreground hover:text-destructive"
+            >
+              <Trash2 className="size-4" />
+            </button>
+          </span>
         )}
       </td>
     </tr>

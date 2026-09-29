@@ -3,9 +3,9 @@ import rawCustomers from "@/data/customers.json";
 export type Customer = { name: string; amount: number };
 export type ManualEntries = Record<string, number>;
 
-export const CUSTOMERS_KEY = "rdx-customers-v1";
-export const ENTRIES_KEY = "rdx-manual-entries-v1";
-export const ABS_KEY = "rdx-compare-abs-v1";
+export const CUSTOMERS_KEY = "rdx-customers-v2";
+export const ENTRIES_KEY = "rdx-manual-entries-v2";
+export const ABS_KEY = "rdx-compare-abs-v2";
 
 export const builtInCustomers: Customer[] = rawCustomers as Customer[];
 
@@ -51,9 +51,19 @@ export function normaliseCustomers(input: unknown): Customer[] {
     let amount: number | null = null;
     for (const [rawKey, rawValue] of Object.entries(record)) {
       const k = rawKey.trim().toUpperCase();
-      if (!name && (k.includes("NAME") || k.includes("CUSTOMER") || k.includes("PARTY"))) {
+      if (
+        !name &&
+        (k.includes("NAME") ||
+          k.includes("CUSTOMER") ||
+          k.includes("PARTY") ||
+          k.includes("DESCRIPTION") ||
+          k.includes("TITLE"))
+      ) {
         name = cleanName(String(rawValue ?? ""));
-      } else if (amount === null && (k.includes("AMOUNT") || k.includes("BALANCE"))) {
+      } else if (
+        amount === null &&
+        (k.includes("AMOUNT") || k.includes("BALANCE") || k.includes("BAL"))
+      ) {
         amount = toNumber(rawValue);
       }
     }
